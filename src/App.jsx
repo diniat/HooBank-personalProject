@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './style';
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components';
+import { Billing, Business, CardDeal, Clients, CTA, Footer, NavBar, Stats, Testimonials, Hero } from './components';
 import { uparrowimg } from "./assets"; 
 
 const App = () =>  {
@@ -27,7 +27,7 @@ const App = () =>  {
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          |<Navbar/>
+          |<NavBar/>
         </div>
       </div>
 
